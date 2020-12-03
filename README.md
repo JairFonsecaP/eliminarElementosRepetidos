@@ -1,2 +1,3 @@
 # eliminarElementosRepetidos
-Elimina en python los elementos repetidos de una lista
+
+Elimina en python los elementos repetidos de una lista y devuelve una lista ordenada
