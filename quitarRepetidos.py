@@ -1,5 +1,6 @@
-def eliminarRepetidos(lista) -> list:
-    pass
+def eliminarRepetidos(lista):
+    return list(set(lista))
 
 
-print(eliminarRepetidos([0, 1, 2, 3, 4, 5, 6, 7, 8, 8, 8, 8, 5, 2, 9]))
+print(eliminarRepetidos([0, 1, 2, 3, 4, 4, 4, 4, 4, 2, 25, 100, 1254,
+                         255, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2]))
